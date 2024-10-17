@@ -2,7 +2,11 @@ module github.com/TheQueenIsDead/gupdit
 
 go 1.23.2
 
-require github.com/go-git/go-git/v5 v5.12.0
+require (
+	github.com/go-git/go-git/v5 v5.12.0
+)
+
+replace github.com/TheQueenIsDead/gupdit => ./
 
 require (
 	dario.cat/mergo v1.0.0 // indirect
